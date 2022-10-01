@@ -1,10 +1,10 @@
 <?php
 
-namespace Scriptotek\GoogleBooks;
+namespace Angelleger\GoogleBooks;
 
 use Illuminate\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
-use Scriptotek\GoogleBooks\Exceptions\InvalidCOnfiguration;
+use Angelleger\GoogleBooks\Exceptions\InvalidCOnfiguration;
 
 /**
  * Laravel 5 service provider

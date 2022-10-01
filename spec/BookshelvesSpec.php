@@ -1,12 +1,12 @@
 <?php
 
-namespace spec\Scriptotek\GoogleBooks;
+namespace spec\Angelleger\GoogleBooks;
 
 use Mockery as m;
-use Scriptotek\GoogleBooks\Bookshelf;
-use Scriptotek\GoogleBooks\Bookshelves;
+use Angelleger\GoogleBooks\Bookshelf;
+use Angelleger\GoogleBooks\Bookshelves;
 use PhpSpec\ObjectBehavior;
-use Scriptotek\GoogleBooks\GoogleBooks;
+use Angelleger\GoogleBooks\GoogleBooks;
 
 class BookshelvesSpec extends ObjectBehavior
 {

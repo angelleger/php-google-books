@@ -25,7 +25,7 @@ Start by creating a new client:
 
 ```php
 require_once('vendor/autoload.php');
-use Scriptotek\GoogleBooks\GoogleBooks;
+use Angelleger\GoogleBooks\GoogleBooks;
 
 $books = new GoogleBooks(['key' => 'YOUR_API_KEY_HERE']);
 ```
@@ -87,15 +87,15 @@ foreach ($books->bookshelves->byUser('113555231101190020526') as $shelf) {
 This project ships with a service provider that you can add to the
 `$providers` array in your `config/app.php`:
 
-    Scriptotek\GoogleBooks\GoogleBooksServiceProvider::class,
+    Angelleger\GoogleBooks\GoogleBooksServiceProvider::class,
 
 There's also a facade you can add to the `$aliases` array if you like:
 
-    'GoogleBooks' => Scriptotek\GoogleBooks\GoogleBooksFacade::class,
+    'GoogleBooks' => Angelleger\GoogleBooks\GoogleBooksFacade::class,
 
 Run
 
-    $ php artisan vendor:publish --provider="Scriptotek\GoogleBooks\GoogleBooksServiceProvider"
+    $ php artisan vendor:publish --provider="Angelleger\GoogleBooks\GoogleBooksServiceProvider"
 
 to create the `config/googlebooks.php` configuration file.
 

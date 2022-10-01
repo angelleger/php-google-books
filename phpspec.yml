@@ -1,5 +1,5 @@
 suites:
   alma_suite:
-    namespace: Scriptotek\GoogleBooks
-    psr4_prefix: Scriptotek\GoogleBooks
+    namespace: Angelleger\GoogleBooks
+    psr4_prefix: Angelleger\GoogleBooks
 formatter.name: pretty

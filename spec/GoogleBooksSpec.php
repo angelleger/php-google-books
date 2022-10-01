@@ -1,13 +1,13 @@
 <?php
 
-namespace spec\Scriptotek\GoogleBooks;
+namespace spec\Angelleger\GoogleBooks;
 
-use Scriptotek\GoogleBooks\Bookshelves;
-use Scriptotek\GoogleBooks\GoogleBooks;
-use Scriptotek\GoogleBooks\Exceptions\UsageLimitExceeded;
+use Angelleger\GoogleBooks\Bookshelves;
+use Angelleger\GoogleBooks\GoogleBooks;
+use Angelleger\GoogleBooks\Exceptions\UsageLimitExceeded;
 
 use PhpSpec\ObjectBehavior;
-use Scriptotek\GoogleBooks\Volumes;
+use Angelleger\GoogleBooks\Volumes;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;

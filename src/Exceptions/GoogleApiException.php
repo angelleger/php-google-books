@@ -1,6 +1,6 @@
 <?php
 
-namespace Scriptotek\GoogleBooks\Exceptions;
+namespace Angelleger\GoogleBooks\Exceptions;
 
 class GoogleApiException extends \RuntimeException
 {

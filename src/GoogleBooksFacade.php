@@ -1,6 +1,6 @@
 <?php
 
-namespace Scriptotek\GoogleBooks;
+namespace Angelleger\GoogleBooks;
 
 use Illuminate\Support\Facades\Facade;
 
